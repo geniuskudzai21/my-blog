@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">My<span>Blog</span></div>
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#"><i class="fas fa-pen"></i> Blog</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to My Personal Blog</h1>
+            <p>Sharing my thoughts, experiences, and knowledge about technology, travel, and life.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container main-container">
+            <div class="blog-content">
+                <h2 class="section-title"><i class="fas fa-newspaper"></i> Recent Posts</h2>
+                <div class="blog-posts">
+                    <!-- Blog Post 1 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://source.unsplash.com/random/600x400/?technology" alt="Blog post image">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar-alt"></i> June 15, 2023</span>
+                                <span><i class="far fa-comment"></i> 5 Comments</span>
+                            </div>
+                            <h2>Getting Started with React Hooks</h2>
+                            <p class="post-excerpt">Learn how to use React Hooks to simplify your functional components and manage state effectively.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://source.unsplash.com/random/600x400/?travel" alt="Blog post image">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar-alt"></i> June 10, 2023</span>
+                                <span><i class="far fa-comment"></i> 3 Comments</span>
+                            </div>
+                            <h2>My Adventure in the Swiss Alps</h2>
+                            <p class="post-excerpt">Sharing my incredible hiking experience through the beautiful Swiss mountains and what I learned along the way.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 3 -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://source.unsplash.com/random/600x400/?coding" alt="Blog post image">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar-alt"></i> June 5, 2023</span>
+                                <span><i class="far fa-comment"></i> 8 Comments</span>
+                            </div>
+                            <h2>Python Tips for Beginners</h2>
+                            <p class="post-excerpt">Essential Python tips and tricks that every beginner should know to write cleaner and more efficient code.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- About Widget -->
+                <div class="sidebar-widget about-widget">
+                    <h3><i class="fas fa-user"></i> About Me</h3>
+                    <img src="https://source.unsplash.com/random/300x300/?portrait" alt="Author image">
+                    <p>Hi, I'm Jane Doe. I'm a web developer and travel enthusiast. I love sharing my knowledge and experiences through this blog.</p>
+                </div>
+
+                <!-- Categories Widget -->
+                <div class="sidebar-widget">
+                    <h3><i class="fas fa-folder"></i> Categories</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Technology</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Travel</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Lifestyle</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Programming</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Productivity</a></li>
+                    </ul>
+                </div>
+
+                <!-- Tags Widget -->
+                <div class="sidebar-widget">
+                    <h3><i class="fas fa-tags"></i> Tags</h3>
+                    <div class="tag-cloud">
+                        <a href="#" class="tag">JavaScript</a>
+                        <a href="#" class="tag">React</a>
+                        <a href="#" class="tag">Travel</a>
+                        <a href="#" class="tag">Python</a>
+                        <a href="#" class="tag">CSS</a>
+                        <a href="#" class="tag">Hiking</a>
+                        <a href="#" class="tag">Web Dev</a>
+                        <a href="#" class="tag">Tips</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">My<span>Blog</span></div>
+                <div class="footer-links">
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-user"></i> About</a>
+                    <a href="#"><i class="fas fa-pen"></i> Blog</a>
+                    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="copyright">&copy; 2023 My Personal Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <script src ="script.js"></script>
+</body>
+</html>
